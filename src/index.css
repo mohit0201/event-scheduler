@@ -1,0 +1,152 @@
+body {
+  margin: 1.5em;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: whitesmoke;
+  height: 100vh;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.welcome-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.main-buttons-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  height: 100%;
+}
+
+.login {
+  color: #1976D2;
+}
+
+.signup {
+  color: #E3004E;
+}
+
+.form-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+}
+
+.sign-up-form {
+  width: 40%;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  color: rgb(106, 103, 103);
+}
+
+.form-label {
+  padding: 1em;
+  /* font-weight: bold; */
+  font-size: 20px;
+}
+
+.form-field {
+  margin: 10px;
+  color: gray;
+  width: 50%;
+  height: 2em;
+  border: 2px solid gray;
+  border-radius: 5px;
+}
+
+.form-button {
+  background-color: whitesmoke;
+  border: 2px solid #555555;
+  color: gray;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.form-button:hover {
+  background-color: #555555;
+  color: whitesmoke;
+}
+
+.label-logout-container {
+  display: flex;
+}
+
+.dashboard-label {
+  font-size: 30px;
+  color: #1976D2;
+}
+
+.event-form-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.event-form-headings {
+  display: flex;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.form-header {
+  color: #E3004E;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.modal-close-button {
+  margin-left: auto;
+}
+
+.event-form-headings {
+  display: flex;
+}
+
+.calendar-label {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  color: #8d8b8b;
+  font-size: 1em;
+  font-weight: bold;
+}
+
+.event-form-calendar {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.date-calendar {
+  display: flex;
+  flex-direction: column;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.end-calendar {
+  margin-left: auto;
+}
+
+.accordion-container {
+  margin-top: 20px;
+}
